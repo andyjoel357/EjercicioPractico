@@ -4,14 +4,17 @@ import {View, Text, StyleSheet} from 'react-native';
 const App = () => {
  return (
     <View style={styles.container}>
-      <View style={styles.messageContainer}>
-        <Text style={styles.message}>Mensaje 1</Text>
+      <View style={styles.txt}>
+        <Text style={styles.message}>Andy Narváez</Text>
       </View>
-      <View style={styles.messageContainer}>
-        <Text style={styles.message}>Mensaje 2</Text>
+      <View style={styles.txt}>
+        <Text style={styles.message}>Johan Alza</Text>
       </View>
-      <View style={styles.messageContainer}>
-        <Text style={styles.message}>Mensaje 3</Text>
+      <View style={styles.txt}>
+        <Text style={styles.message}>Fernando Mallitaxi</Text>
+      </View>
+      <View style={styles.txt}>
+        <Text style={styles.message}>Andy Tituaña</Text>
       </View>
     </View>
  );
@@ -24,7 +27,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
  },
- messageContainer: {
+ txt: {
     backgroundColor: '#61DAFB',
     borderRadius: 5,
     padding: 10,
